@@ -1,14 +1,15 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 # LOAD MODEL
+BASE_DIR = os.path.dirname(__file__)
+MODEL_PATH = os.path.join(BASE_DIR, "best_model.pkl")
 
-
-model = joblib.load("best_model.pkl")
+model = joblib.load(MODEL_PATH)
 
 # KONFIGURASI HALAMAN
-
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
