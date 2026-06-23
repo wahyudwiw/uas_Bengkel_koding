@@ -270,7 +270,7 @@ Aplikasi Customer Churn Prediction telah dideploy menggunakan Streamlit.
 ### Link Aplikasi
 
 ```text
-https://YOUR-STREAMLIT-URL.streamlit.app/
+https://uasbengkelkoding.streamlit.app/
 ```
 
 ### Fitur Aplikasi
