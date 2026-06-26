@@ -1,14 +1,16 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from pathlib import Path
 
 # =====================================================
 # LOAD MODEL & SCALER
 # =====================================================
 
-model = joblib.load("best_model.pkl")
-scaler = joblib.load("scaler.pkl")
+BASE_DIR = Path(__file__).resolve().parent
 
+model = joblib.load(BASE_DIR / "best_model.pkl")
+scaler = joblib.load(BASE_DIR / "scaler.pkl")
 # =====================================================
 # PAGE CONFIG
 # =====================================================
