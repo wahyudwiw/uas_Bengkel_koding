@@ -203,11 +203,7 @@ Deployment dibangun menggunakan:
 
 ---
 
-# 🌐 Live Demo
 
-https://uasbengkelkoding.streamlit.app/
-
----
 
 # 💻 Fitur Aplikasi
 
